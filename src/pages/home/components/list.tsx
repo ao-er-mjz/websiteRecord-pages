@@ -8,6 +8,7 @@ import { listItemType, itemType } from '../../../const/index';
 
 interface Props {
     dataItem: listItemType;
+    setRef: (dom: HTMLElement | null) => void;
 }
 
 const Item: React.FC<Props> = memo(props => {
@@ -16,7 +17,7 @@ const Item: React.FC<Props> = memo(props => {
     };
     return (
         <>
-            <h2 id={props.dataItem.key} className={styles.title}>
+            <h2 ref={props.setRef} id={props.dataItem.href} className={styles.title}>
                 {props.dataItem.title}
             </h2>
             <div className={styles.grid_box}>

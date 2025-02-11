@@ -1,12 +1,12 @@
 import './index.scss';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Home from '../pages/home';
 import Page1 from '../pages/page1';
 import Page2 from '../pages/page2';
 import Page3 from '../pages/page3';
 
 function Router() {
-    const router = createBrowserRouter([
+    const router = createHashRouter([
         {
             path: '/',
             element: <Home />,

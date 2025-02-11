@@ -19,15 +19,14 @@
         h1 {
             margin-bottom: 0;
         }
-        :global {
-            .ant-affix .ant-anchor-wrapper {
-                overflow-y: auto;
-            }
-        }
+        width: 100%;
+        overflow-y: auto;
     }
 
     .main {
         grid-area: main;
+        height: 100%;
+        overflow-y: auto;
     }
 
     .footer {
