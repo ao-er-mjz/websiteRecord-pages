@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        'header header header header header'
+        'sidebar main main main main'
+        'footer footer footer footer footer';
+    grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+
+    .header {
+        grid-area: header;
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+        background-color: #f4f4f4;
+        h1 {
+            margin-bottom: 0;
+        }
+        :global {
+            .ant-affix .ant-anchor-wrapper {
+                overflow-y: auto;
+            }
+        }
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+.state {
+    background: url('/src/assets/image/blue-panel.png') 0px 0px/100% 100% no-repeat;
+    color: #ffffff;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: red;
+    }
+
+    .title-content {
+        > span {
+            color: green;
+        }
+    }
+}

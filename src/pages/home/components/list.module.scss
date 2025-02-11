@@ -1,0 +1,40 @@
+.title {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.grid_box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: repeat(auto-fill, 125px);
+    gap: 30px; /* 保留 gap 属性以保持间距 */
+    padding: 20px;
+    box-sizing: border-box;
+    .item {
+        min-width: 310px; /* 设置最小宽度 */
+        height: 125px;
+        background: url('/src/assets/image/blue-panel.png') 0px 0px/100% 100% no-repeat;
+        color: #ffffff;
+        padding: 16px;
+        box-sizing: border-box;
+
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加过渡效果 */
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.1); /* 放大效果 */
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* 阴影效果 */
+        }
+        .image {
+            object-fit: contain;
+        }
+        h2 {
+            margin-bottom: 5px;
+        }
+        p {
+            margin-bottom: 0;
+            word-wrap: break-word; /* 允许长单词或 URL 地址换行到下一行 */
+            word-break: break-all; /* 强制文本在任意字符处换行 */
+        }
+    }
+}
