@@ -31,4 +31,12 @@ export default defineConfig({
             },
         },
     },
+
+    build: {
+        outDir: 'dist', // 输出目录
+        assetsInlineLimit: 4096, // 小于该大小的资源将内联到 HTML 中
+        rollupOptions: {
+            input: 'index.html', // 入口文件
+        },
+    },
 });
