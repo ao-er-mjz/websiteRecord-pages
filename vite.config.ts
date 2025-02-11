@@ -1,11 +1,22 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import UnoCSS from 'unocss/vite';
+// 导入path 用于设置别名
+import * as path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
     base: './',
     plugins: [UnoCSS(), react()],
+    //配置别名
+    resolve: {
+        // 需要在tsconfig.json的compilerOptions中配置paths
+        alias: {
+            '@': path.resolve('./src'), // @代替src
+            '~': path.resolve('./src/components'), // @代替src/components
+        },
+        extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue'],
+    },
     server: {
         proxy: {
             '/dev-api': {
