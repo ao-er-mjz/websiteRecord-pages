@@ -1,0 +1,45 @@
+import csdnImg from '@/assets/image/csdn.png';
+export default [
+    {
+        name: 'CSDN',
+        text: '一个知名的IT技术社区和在线学习平台，主要面向软件开发人员和IT从业者。',
+        img: csdnImg,
+        href: 'https://www.csdn.net/',
+    },
+    {
+        name: '稀土掘金',
+        text: '稀土掘金是一个面向开发者和技术爱好者的社区平台，主要提供技术文章、博客、问答、资源分享等功能',
+        img: 'https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/e08da34488b114bd4c665ba2fa520a31.svg',
+        href: 'https://juejin.cn/',
+    },
+    {
+        name: 'name',
+        text: 'text',
+        img: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
+    },
+    {
+        name: 'name',
+        text: 'text',
+        img: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
+    },
+    {
+        name: 'name',
+        text: 'text',
+        img: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
+    },
+    {
+        name: 'name',
+        text: 'text',
+        img: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
+    },
+    {
+        name: 'name',
+        text: 'text',
+        img: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
+    },
+    {
+        name: 'name',
+        text: 'text',
+        img: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
+    },
+];

@@ -17,12 +17,12 @@ const list: listItemType[] = [];
 interface modulesFilesType {
     [key: string]: any;
 }
-const modulesFiles: modulesFilesType = import.meta.glob('./*.json', { eager: true });
+const modulesFiles: modulesFilesType = import.meta.glob('./*.ts', { eager: true });
 
 for (const key in modulesFiles) {
     if (Object.prototype.hasOwnProperty.call(modulesFiles, key)) {
         // 使用正则表达式提取文件名中的部分
-        const match = key.match(/(?:\.\/)([^.]+)\.json/);
+        const match = key.match(/(?:\.\/)([^.]+)\.ts/);
         if (match && match[1]) {
             const title = match[1];
             const element = modulesFiles[key].default;
