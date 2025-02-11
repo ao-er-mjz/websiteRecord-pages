@@ -30,7 +30,7 @@ jobs:
               run: npm run build --if-present
 
             - name: Deploy to Server # 第四步，rsync推送文件
-              uses: AEnterprise/rsync-deploy@v2 # 使用别人包装好的步骤镜像
+              uses: JamesIves/github-pages-deploy-action@v4.3.3 # 使用别人包装好的步骤镜像
               with:
                   folder: dist # 操作应该部署的文件夹。
                   # 提交分支名
