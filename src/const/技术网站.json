@@ -2,7 +2,7 @@
     {
         "name": "CSDN",
         "text": "一个知名的IT技术社区和在线学习平台，主要面向软件开发人员和IT从业者。",
-        "img": "/src/assets/image/csdn.png",
+        "img": "src/assets/image/csdn.png",
         "href": "https://www.csdn.net/"
     },
     {
