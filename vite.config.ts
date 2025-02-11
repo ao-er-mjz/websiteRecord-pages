@@ -4,6 +4,7 @@ import UnoCSS from 'unocss/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    base: '/',
     plugins: [UnoCSS(), react()],
     server: {
         proxy: {
