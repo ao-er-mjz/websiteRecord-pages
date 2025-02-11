@@ -37,3 +37,5 @@ jobs:
                   folder: dist # 操作应该部署的文件夹。
                   # 提交分支名
                   branch: static-pages
+                  TARGET_FOLDER: / # 打包的文件将放到静态服务器 / 目录下
+                  REPOSITORY_NAME: ao-er-mjz/websiteRecord-pages # 这是我的 github page 仓库
