@@ -1,0 +1,22 @@
+import 文心一言Img from '@/assets/image/文心一言.webp';
+
+export default [
+    {
+        name: 'DeepSeek',
+        text: '国内开发的AI模型',
+        img: '	https://www.deepseek.com/_next/image?url=https%3A%2F%2Fcdn.deepseek.com%2Flogo.png&w=828&q=75',
+        href: 'https://www.deepseek.com/',
+    },
+    {
+        name: '文心一言',
+        text: '百度开发的AI模型',
+        img: 文心一言Img,
+        href: 'https://yiyan.baidu.com/',
+    },
+    {
+        name: 'CodeMoss',
+        text: 'AI辅助工具',
+        img: 'https://luomacode-1253302184.cos.ap-beijing.myqcloud.com/logo.svg',
+        href: 'https://codemossai.com/chat#session=100035101',
+    },
+];

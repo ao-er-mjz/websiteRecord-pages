@@ -17,9 +17,9 @@ const Item: React.FC<Props> = memo(props => {
     };
     return (
         <>
-            <h2 ref={props.setRef} id={props.dataItem.href} className={styles.title}>
+            <h1 ref={props.setRef} id={props.dataItem.href} className={`${styles.title} font-bold`}>
                 {props.dataItem.title}
-            </h2>
+            </h1>
             <div className={styles.grid_box}>
                 {props.dataItem.list.map((item, index) => {
                     return (
