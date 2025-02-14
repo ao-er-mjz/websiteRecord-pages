@@ -5,7 +5,7 @@ export default [
     {
         name: 'DeepSeek',
         text: '国内开发的AI模型',
-        img: '	https://www.deepseek.com/_next/image?url=https%3A%2F%2Fcdn.deepseek.com%2Flogo.png&w=828&q=75',
+        img: 'https://www.deepseek.com/_next/image?url=https%3A%2F%2Fcdn.deepseek.com%2Flogo.png&w=828&q=75',
         href: 'https://www.deepseek.com/',
     },
     {

@@ -6,15 +6,16 @@
     margin-top: 20px;
 }
 .grid_box {
+    $height: 150px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-template-rows: repeat(auto-fill, 125px);
+    grid-template-rows: repeat(auto-fill, $height);
     gap: 30px; /* 保留 gap 属性以保持间距 */
     padding: 20px;
     box-sizing: border-box;
     .item {
         min-width: 310px; /* 设置最小宽度 */
-        height: 125px;
+        height: $height;
         background: url('/src/assets/image/blue-panel.png') 0px 0px/100% 100% no-repeat;
         color: #ffffff;
         padding: 16px;
