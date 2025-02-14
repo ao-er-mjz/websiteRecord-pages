@@ -43,4 +43,10 @@ export default [
         img: 'https://lf-dp.bytetos.com/obj/dp-open-internet-cn/visactor-site/bytedance/client/img/visactor/navigator-logo.svg',
         href: 'https://www.visactor.io/',
     },
+    {
+        name: 'Developer Icons',
+        text: 'logo图标网站',
+        img: 'https://xandemon.github.io/developer-icons/favicon.svg',
+        href: 'https://xandemon.github.io/developer-icons/icons/All/',
+    },
 ];

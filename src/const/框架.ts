@@ -1,5 +1,5 @@
-import vueImg from '@/assets/image/vue.jpg';
-import reactImg from '@/assets/image/react.png';
+import vueImg from '@/assets/image/vue.svg';
+import reactImg from '@/assets/image/react.svg';
 export default [
     {
         name: 'Vue',

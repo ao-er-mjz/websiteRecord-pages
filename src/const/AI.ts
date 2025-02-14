@@ -1,4 +1,5 @@
 import 文心一言Img from '@/assets/image/文心一言.webp';
+import v0Img from '@/assets/image/v0.png';
 
 export default [
     {
@@ -18,5 +19,11 @@ export default [
         text: 'AI辅助工具',
         img: 'https://luomacode-1253302184.cos.ap-beijing.myqcloud.com/logo.svg',
         href: 'https://codemossai.com/chat#session=100035101',
+    },
+    {
+        name: 'v0',
+        text: 'AI工具，具有页面生成功能',
+        img: v0Img,
+        href: 'https://v0.dev/',
     },
 ];
