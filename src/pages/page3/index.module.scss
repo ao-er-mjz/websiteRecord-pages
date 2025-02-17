@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        'left top top top right'
+        'left top top top right'
+        'left top top top right'
+        'left1 top top top right1'
+        'left1 bottom bottom bottom right1'
+        'left1 bottom bottom bottom right1';
+
+    grid-template-columns: 300px 1fr 1fr 1fr 300px;
+    grid-template-rows: repeat(6, 1fr);
+
+    .item-0 {
+        grid-area: left;
+        background-color: #f0f0f0; // 示例背景颜色
+        border: 1px solid #ccc; // 示例边框
+    }
+
+    .item-1 {
+        grid-area: top;
+        background-color: #a54c4c; // 示例背景颜色
+        border: 1px solid #cc6262; // 示例边框
+    }
+
+    .item-2 {
+        grid-area: right;
+        background-color: #8ebb14; // 示例背景颜色
+        border: 1px solid #8ebb14; // 示例边框
+    }
+
+    .item-3 {
+        grid-area: left1;
+        background-color: #219752; // 示例背景颜色
+        border: 1px solid #219752; // 示例边框
+    }
+
+    .item-4 {
+        grid-area: bottom;
+        background-color: #8139b1; // 示例背景颜色
+        border: 1px solid #8139b1; // 示例边框
+    }
+
+    .item-5 {
+        grid-area: right1;
+        background-color: #1cb6bb; // 示例背景颜色
+        border: 1px solid #1cb6bb; // 示例边框
+    }
+}

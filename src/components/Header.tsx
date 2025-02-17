@@ -36,6 +36,7 @@ const Header: React.FC<Props> = memo(props => {
         { path: '/page1', name: '页面1', id: 'page1' },
         { path: '/page2', name: '页面2', id: 'page2' },
         { path: '/page3', name: '页面3', id: 'page3' },
+        { path: '/page4', name: '页面4', id: 'page4' },
     ];
 
     const [projectId, setProjectId] = useRecoilState(currentProjectIdAtom);

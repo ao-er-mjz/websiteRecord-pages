@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.left, .right {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.main {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 20px;
+}
