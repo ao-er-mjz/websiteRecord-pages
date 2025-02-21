@@ -1,8 +1,15 @@
+import 硅基流动Img from '@/assets/image/硅基流动.png';
 import 文心一言Img from '@/assets/image/文心一言.webp';
 import 百度AI搜索Img from '@/assets/image/百度AI搜索.png';
 import v0Img from '@/assets/image/v0.png';
 
 export default [
+    {
+        name: '硅基流动',
+        text: 'AI聚合平台',
+        img: 硅基流动Img,
+        href: 'https://siliconflow.cn/zh-cn/',
+    },
     {
         name: 'DeepSeek',
         text: '国内开发的AI模型',
