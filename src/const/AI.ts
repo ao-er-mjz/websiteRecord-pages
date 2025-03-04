@@ -5,6 +5,12 @@ import v0Img from '@/assets/image/v0.png';
 
 export default [
     {
+        name: 'AI聚合平台',
+        text: 'AI聚合平台',
+        img: 'https://ai.thinkgs.cn/wp-content/themes/onenav/images/logo_l@2x.png',
+        href: 'https://ai.thinkgs.cn/',
+    },
+    {
         name: '硅基流动',
         text: 'AI聚合平台',
         img: 硅基流动Img,
@@ -45,5 +51,11 @@ export default [
         text: 'AI工具，具有将屏幕截图、网站 URL 转换为代码组件的功能',
         img: 'https://copyweb.ai/logo.png',
         href: 'https://copyweb.ai/',
+    },
+    {
+        name: '通义万相',
+        text: '通义万相支持文生视频、图生视频两种创作方式',
+        img: 'https://gw.alicdn.com/imgextra/i1/O1CN01gAwVtW296IdlNcfkW_!!6000000008018-2-tps-264-104.png',
+        href: 'https://tongyi.aliyun.com/wanxiang/',
     },
 ];
