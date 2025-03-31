@@ -1,5 +1,11 @@
 export default [
     {
+        name: 'unibest',
+        text: 'uniapp 框架的项目模板',
+        img: 'https://unibest.tech/logo.svg',
+        href: 'https://unibest.tech/',
+    },
+    {
         name: 'Element Plus',
         text: '基于 Vue 3，面向设计师和开发者的组件库',
         img: 'https://element-plus.sxtxhy.com/images/element-plus-logo.svg',
