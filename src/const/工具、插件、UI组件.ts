@@ -23,7 +23,12 @@ export default [
         img: 'https://uviewui.com/common/logo.png',
         href: 'https://uviewui.com/',
     },
-
+    {
+        name: 'Wot Design Uni',
+        text: '基于Vue3+TS开发的uni-app生态 UI 框架',
+        img: 'https://wot-design-uni.netlify.app/logo.png',
+        href: 'https://wot-design-uni.netlify.app/',
+    },
     {
         name: 'z-paging',
         text: '一个 uni-app 分页组件',
