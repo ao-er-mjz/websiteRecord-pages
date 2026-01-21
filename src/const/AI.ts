@@ -58,4 +58,49 @@ export default [
         img: 'https://gw.alicdn.com/imgextra/i1/O1CN01gAwVtW296IdlNcfkW_!!6000000008018-2-tps-264-104.png',
         href: 'https://tongyi.aliyun.com/wanxiang/',
     },
+
+    {
+        name: 'Pika Labs',
+        text: '动画/短剧类，风格化强，适合二次元角色动画',
+        img: 'pikaLabsImg',
+        href: 'https://pika.art/',
+    },
+    {
+        name: 'Runway Gen-2',
+        text: '动画/短剧类，运动控制精细，适合场景转换和镜头语言',
+        img: 'runwayGen2Img',
+        href: 'https://runwayml.com/ai-tools/gen-2/',
+    },
+    {
+        name: 'Luma Dream Machine',
+        text: '动画/短剧类，光影质感出色，治愈系氛围渲染最佳',
+        img: 'lumaDreamMachineImg',
+        href: 'https://lumalabs.ai/dream-machine',
+    },
+
+    {
+        name: 'Captions',
+        text: '过程展示类，自动配音+字幕+节奏剪辑，适合教程类快剪',
+        img: 'captionsImg',
+        href: 'https://captions.ai/',
+    },
+    {
+        name: 'Opus Clip',
+        text: '过程展示类，长视频智能拆条，可从直播录屏提取高光',
+        img: 'opusClipImg',
+        href: 'https://opusclip.com/',
+    },
+
+    {
+        name: 'Kaiber',
+        text: '特效增强类，图像转视频，静态图生成动态意境',
+        img: 'kaiberImg',
+        href: 'https://kaiber.ai/',
+    },
+    {
+        name: 'Stable Video Diffusion',
+        text: '特效增强类，开源可控，适合技术向内容展示',
+        img: 'stableVideoDiffusionImg',
+        href: 'https://stability.ai/news/stable-video-diffusion',
+    },
 ];
