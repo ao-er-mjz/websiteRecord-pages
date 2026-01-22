@@ -4,7 +4,7 @@ React18、Ts、Vite、react-use、recoil、antd 等技术
 
 在线预览：
 
-- [Vercel](https://website-record-pages.vercel.app/)
+- [Vercel](https://website-record-pages-git-master-ao-er-mjzs-projects.vercel.app/)
 - [GitHub Pages](https://ao-er-mjz.github.io/websiteRecord-pages/)
 
 ### 目录
