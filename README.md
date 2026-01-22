@@ -6,6 +6,7 @@ React18、Ts、Vite、react-use、recoil、antd 等技术
 
 - [Vercel](https://website-record-pages-git-master-ao-er-mjzs-projects.vercel.app/)
 - [GitHub Pages](https://ao-er-mjz.github.io/websiteRecord-pages/)
+- [Netlify](https://bejewelled-meringue-3f73b7.netlify.app/)
 
 ### 目录
 
