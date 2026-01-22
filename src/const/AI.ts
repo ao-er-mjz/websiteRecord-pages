@@ -19,7 +19,7 @@ export default [
     {
         name: 'DeepSeek',
         text: '国内开发的AI模型',
-        img: 'https://www.deepseek.com/_next/image?url=https%3A%2F%2Fcdn.deepseek.com%2Flogo.png&w=828&q=75',
+        img: '',
         href: 'https://www.deepseek.com/',
     },
     {
@@ -58,49 +58,60 @@ export default [
         img: 'https://gw.alicdn.com/imgextra/i1/O1CN01gAwVtW296IdlNcfkW_!!6000000008018-2-tps-264-104.png',
         href: 'https://tongyi.aliyun.com/wanxiang/',
     },
-
+    {
+        name: '豆包',
+        text: '豆包是一个基于大模型的AI问答平台，支持文生视频、图生视频两种创作方式',
+        img: 'https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/chat/static/image/logo-icon-white-bg.72df0b1a.png',
+        href: 'https://www.doubao.com/chat/',
+    },
+    {
+        name: '扣子',
+        text: 'AI原生应用开发平台，可视化搭建，支持多模态插件与部署',
+        img: 'https://github.com/log-z/logos/blob/main/website-logos/coze.svg',
+        href: 'https://code.coze.cn/',
+    },
     {
         name: 'Pika Labs',
         text: '动画/短剧类，风格化强，适合二次元角色动画',
-        img: 'pikaLabsImg',
+        img: '',
         href: 'https://pika.art/',
     },
     {
         name: 'Runway Gen-2',
         text: '动画/短剧类，运动控制精细，适合场景转换和镜头语言',
-        img: 'runwayGen2Img',
+        img: '',
         href: 'https://runwayml.com/ai-tools/gen-2/',
     },
     {
         name: 'Luma Dream Machine',
         text: '动画/短剧类，光影质感出色，治愈系氛围渲染最佳',
-        img: 'lumaDreamMachineImg',
+        img: '',
         href: 'https://lumalabs.ai/dream-machine',
     },
 
     {
         name: 'Captions',
         text: '过程展示类，自动配音+字幕+节奏剪辑，适合教程类快剪',
-        img: 'captionsImg',
+        img: '',
         href: 'https://captions.ai/',
     },
     {
         name: 'Opus Clip',
         text: '过程展示类，长视频智能拆条，可从直播录屏提取高光',
-        img: 'opusClipImg',
+        img: '',
         href: 'https://opusclip.com/',
     },
 
     {
         name: 'Kaiber',
         text: '特效增强类，图像转视频，静态图生成动态意境',
-        img: 'kaiberImg',
+        img: '',
         href: 'https://kaiber.ai/',
     },
     {
         name: 'Stable Video Diffusion',
         text: '特效增强类，开源可控，适合技术向内容展示',
-        img: 'stableVideoDiffusionImg',
+        img: '',
         href: 'https://stability.ai/news/stable-video-diffusion',
     },
 ];

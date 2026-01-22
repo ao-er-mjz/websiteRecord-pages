@@ -60,4 +60,10 @@ export default [
         img: 'https://xandemon.github.io/developer-icons/favicon.svg',
         href: 'https://xandemon.github.io/developer-icons/icons/All/',
     },
+    {
+        name: 'logos',
+        text: 'log-z/logos相关开源项目资源',
+        img: 'logosImg',
+        href: 'https://github.com/log-z/logos/',
+    },
 ];

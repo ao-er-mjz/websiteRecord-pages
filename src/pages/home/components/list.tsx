@@ -15,6 +15,24 @@ const Item: React.FC<Props> = memo(props => {
     const itemOnClick = (item: itemType) => {
         item.href && window.open(item.href);
     };
+
+    // 验证图片链接是否有效
+    const isValidImageUrl = (url: string | undefined | null): boolean => {
+        if (!url || url.trim() === '') return false;
+        // 检查常见图片扩展名
+        return /\.(jpg|jpeg|png|webp|svg|gif|bmp|ico)(\?.*)?$/i.test(url);
+    };
+
+    const renderImage = (item: itemType) => {
+        const isValid = isValidImageUrl(item.img);
+
+        if (isValid) {
+            return <Image className={styles.image} width={80} height={80} src={item.img} preview={false} />;
+        }
+
+        return <div className={styles.fallback_image}>{item.img ? item.img : item.name}</div>;
+    };
+
     return (
         <>
             <h1 ref={props.setRef} id={props.dataItem.href} className={`${styles.title} font-bold`}>
@@ -28,7 +46,7 @@ const Item: React.FC<Props> = memo(props => {
                             key={index}
                             onClick={() => itemOnClick(item)}
                         >
-                            <Image className={styles.image} width={80} height={80} src={item.img} preview={false} />
+                            {renderImage(item)}
                             <div className={`m-l-10 flex-1`}>
                                 <h2>{item.name}</h2>
                                 <p>{item.text}</p>
