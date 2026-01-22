@@ -2,27 +2,32 @@
 
 React18、Ts、Vite、react-use、recoil、antd 等技术
 
+在线预览：
+
+- [Vercel](https://website-record-pages.vercel.app/)
+- [GitHub Pages](https://ao-er-mjz.github.io/websiteRecord-pages/)
+
 ### 目录
 
--   [1. 安装、启动、打包](#1-安装、启动、打包)
--   [2. 文件目录结构](#2-文件目录结构)
--   [3. 文件详细目录及介绍](#3-文件详细介绍)
-    -   [3-1. index](#3-1-index)
-    -   [3-2. viteConfig](#3-2-viteConfig)
-    -   [3-3. apiPy](#3-3-apiPy)
-    -   [3-4. src](#3-4-src)
-        -   [3-4-1. index](#3-4-1-index)
-        -   [3-4-2. assets](#3-4-2-assets)
-        -   [3-4-3. pages](#3-4-3-pages)
-        -   [3-4-4. router](#3-4-4-router)
-        -   [3-4-5. state](#3-4-5-state)
-        -   [3-4-6. styles](#3-4-6-styles)
-        -   [3-4-7. untils](#3-4-7-untils)
-        -   [3-4-8. api](#3-4-8-api)
-            -   [3-4-8-1. axios](#3-4-8-1-axios)
-            -   [3-4-8-2. index](#3-4-8-2-index)
-        -   [3-4-9. common](#3-4-9-common)
-        -   [3-4-10. components](#3-4-10-components)
+- [1. 安装、启动、打包](#1-安装、启动、打包)
+- [2. 文件目录结构](#2-文件目录结构)
+- [3. 文件详细目录及介绍](#3-文件详细介绍)
+    - [3-1. index](#3-1-index)
+    - [3-2. viteConfig](#3-2-viteConfig)
+    - [3-3. apiPy](#3-3-apiPy)
+    - [3-4. src](#3-4-src)
+        - [3-4-1. index](#3-4-1-index)
+        - [3-4-2. assets](#3-4-2-assets)
+        - [3-4-3. pages](#3-4-3-pages)
+        - [3-4-4. router](#3-4-4-router)
+        - [3-4-5. state](#3-4-5-state)
+        - [3-4-6. styles](#3-4-6-styles)
+        - [3-4-7. untils](#3-4-7-untils)
+        - [3-4-8. api](#3-4-8-api)
+            - [3-4-8-1. axios](#3-4-8-1-axios)
+            - [3-4-8-2. index](#3-4-8-2-index)
+        - [3-4-9. common](#3-4-9-common)
+        - [3-4-10. components](#3-4-10-components)
 
 ![avatar](./img/mulu.jpg)
 
