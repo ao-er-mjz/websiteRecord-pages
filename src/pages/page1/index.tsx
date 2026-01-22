@@ -1,12 +1,12 @@
 import React, { memo, useEffect } from 'react';
 import { Button, message } from 'antd';
-import Header from '../../components/Header';
-import Content from '../../components/Content';
+import Header from '@/components/Header';
+import Content from '@/components/Content';
 
 import styles from './index.module.scss';
 
 import { useAsync, useAsyncFn } from 'react-use';
-import { api } from '../../api';
+import { api } from '@/api';
 
 const Page1: React.FC = memo(() => {
     const getParams = '/lakers';

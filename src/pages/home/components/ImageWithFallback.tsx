@@ -1,7 +1,7 @@
 import React, { useState, memo, useMemo } from 'react';
 import { Image } from 'antd';
 import styles from './list.module.scss';
-import { itemType } from '../../../const/index';
+import { itemType } from '@/const/index';
 
 interface ImageWithFallbackProps {
     /** Item data containing image URL/Base64 and fallback name */

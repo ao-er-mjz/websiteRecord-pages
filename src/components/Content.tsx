@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import styles from '../styles/content.module.scss';
+import styles from '@/styles/content.module.scss';
 
 interface Props {
     children?: React.ReactNode;

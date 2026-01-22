@@ -1,9 +1,9 @@
 import React, { memo } from 'react';
 
-import styles from '../styles/header.module.scss';
+import styles from '@/styles/header.module.scss';
 import { Select, Space } from 'antd';
 import { Link } from 'react-router-dom';
-import { currentProjectIdAtom } from '../state';
+import { currentProjectIdAtom } from '@/state';
 import { useRecoilState } from 'recoil';
 
 const { Option } = Select;

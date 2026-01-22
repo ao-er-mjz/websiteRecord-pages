@@ -1,11 +1,11 @@
 import React, { memo } from 'react';
-import Header from '../../components/Header';
-import Content from '../../components/Content';
+import Header from '@/components/Header';
+import Content from '@/components/Content';
 
 import { useAsync } from 'react-use';
-import { api } from '../../api';
+import { api } from '@/api';
 
-import styles from '../page1/index.module.scss';
+import styles from '@/pages/page1/index.module.scss';
 
 const Page2: React.FC = memo(() => {
     const devData = useAsync(async () => {

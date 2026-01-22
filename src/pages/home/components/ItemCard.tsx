@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import styles from './list.module.scss';
-import { itemType } from '../../../const/index';
+import { itemType } from '@/const/index';
 import { ImageWithFallback } from './ImageWithFallback';
 
 interface ItemCardProps {
@@ -19,9 +19,9 @@ export const ItemCard: React.FC<ItemCardProps> = memo(({ item, onClick }) => {
         <div
             className={`${styles.item} flex a-i_c j-c_s-b`}
             onClick={() => onClick(item)}
-            role="button"
+            role='button'
             tabIndex={0}
-            onKeyDown={(e) => {
+            onKeyDown={e => {
                 if (e.key === 'Enter' || e.key === ' ') {
                     onClick(item);
                 }

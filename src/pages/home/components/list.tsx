@@ -1,6 +1,6 @@
 import React, { memo, useCallback } from 'react';
 import styles from './list.module.scss';
-import { listItemType, itemType } from '../../../const/index';
+import { listItemType, itemType } from '@/const/index';
 import { ItemCard } from './ItemCard';
 
 interface Props {

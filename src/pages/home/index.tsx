@@ -1,12 +1,14 @@
 import React, { memo, useRef, useCallback } from 'react';
-import { Anchor, List } from 'antd';
-import Header from '../../components/Header';
-import Content from '../../components/Content';
+import { List } from 'antd';
+import { useRecoilValue } from 'recoil';
+
+import { currentProjectIdAtom } from '@/state';
+import Header from '@/components/Header';
+import Content from '@/components/Content';
+import dataList from '@/const/index';
+
 import ListComponents from './components/list';
 import styles from './index.module.scss';
-import { currentProjectIdAtom } from '../../state';
-import { useRecoilValue } from 'recoil';
-import dataList from '../../const/index';
 
 // 定义HomeContent组件，使用memo进行优化
 const HomeContent: React.FC = memo(() => {
